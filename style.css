@@ -1,8 +1,8 @@
 /*Importing Google Font*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 /*Removing the inherit Margin and Padding Values*/
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -243,7 +243,7 @@ body {
   color: #fff;
 }
 
-.form .inputBx input[type="submit"] {
+.form .inputBx input[type='submit'] {
   width: 150px;
   background: #fff;
   color: #111;
@@ -279,12 +279,12 @@ If there are any Question about it, just write me.*/
   transition: all 3s;
 }
 
-[date-scroll="in"] {
+[date-scroll='in'] {
   opacity: 1;
   transform: translateX(0);
 }
 
-[data-scroll="out"] {
+[data-scroll='out'] {
   opacity: 0;
   transform: translateX(-300px);
 }
